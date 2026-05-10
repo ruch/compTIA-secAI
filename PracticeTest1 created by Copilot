@@ -1,0 +1,699 @@
+1.
+
+A security researcher finds that a computer‑vision model misclassifies images when attackers apply subtle pixel‑level noise. Which concept best explains this weakness?
+
+A. Overgeneralization caused by excessive regularization
+B. Adversarial perturbations exploiting model sensitivity
+C. Gradient vanishing due to shallow convolutional layers
+D. Transfer learning errors from mismatched source domains
+2.
+
+A team wants to build a malware classifier using labeled benign and malicious samples. Which learning paradigm fits this requirement?
+
+A. Reinforcement learning driven by reward signals
+B. Supervised learning using annotated datasets
+C. Self‑supervised learning with masked token prediction
+D. Unsupervised clustering based on feature similarity
+3.
+
+A threat actor uses a generative model to rewrite phishing emails so they evade content‑filter signatures. This represents:
+
+A. Model inversion to reconstruct sensitive training data
+B. Automated social engineering using generative AI
+C. Prompt‑based manipulation of inference pipelines
+D. Data poisoning during model retraining
+4.
+
+A SOC deploys an NLP model to summarize threat‑intel reports. Which limitation must analysts consider?
+
+A. NLP models cannot process multi‑sentence context windows
+B. NLP models may hallucinate details not present in the source
+C. NLP models require only numerical tabular data to function
+D. NLP models cannot be fine‑tuned on domain‑specific corpora
+5.
+
+A deep learning model performs extremely well on training data but poorly on new samples. Which adjustment is most effective?
+
+A. Increasing inference batch size to stabilize predictions
+B. Adding dropout or other regularization to reduce overfitting
+C. Reducing the number of hidden layers to simplify gradients
+D. Disabling weight decay to preserve learned representations
+6.
+
+A red‑team operator uses an LLM to generate polymorphic malware variants that evade signature‑based detection. This is an example of:
+
+A. Model poisoning through malicious gradient updates
+B. AI‑enabled evasion using generative transformation
+C. Shadow inference to bypass access controls
+D. Feature pruning to remove malicious indicators
+7.
+
+A model groups network flows into behavioral clusters without using labels. Which learning approach is being used?
+
+A. Semi‑supervised learning with partial annotations
+B. Unsupervised learning for pattern discovery
+C. Reinforcement learning with environmental feedback
+D. Supervised learning with categorical targets
+8.
+
+A security team wants a model that adapts to attacker behavior in real time by optimizing actions based on outcomes. Which technique is most appropriate?
+
+A. Reinforcement learning with reward‑driven policy updates
+B. Logistic regression with static decision boundaries
+C. Batch‑only training using historical threat data
+D. Rule‑based inference with deterministic outputs
+9.
+
+A threat actor injects manipulated samples into a training dataset to bias the model’s predictions. This attack is known as:
+
+A. Feature extraction interference
+B. Data poisoning targeting model integrity
+C. Prompt injection during inference
+D. Model compression exploitation
+10.
+
+A company uses an LLM to classify internal messages for insider‑threat detection. What is the primary risk?
+
+A. LLMs cannot interpret contextual language patterns
+B. LLMs may misinterpret ambiguous or nuanced phrasing
+C. LLMs cannot operate on unstructured text inputs
+D. LLMs require deterministic rule‑based prompts
+11.
+
+A model that uses many stacked nonlinear layers to learn hierarchical representations is best described as:
+
+A. A Bayesian classifier with probabilistic inference
+B. A deep neural network with multi‑layer architecture
+C. A decision tree with recursive splits
+D. A linear model with fixed coefficients
+12.
+
+A SOC wants to detect anomalies in encrypted network traffic without decrypting it. Which AI technique is most suitable?
+
+A. NLP models trained on tokenized packet payloads
+B. Autoencoders trained on metadata‑level features
+C. Reinforcement learning with environment rewards
+D. Linear regression using packet size averages
+13.
+
+A threat actor crafts inputs designed to force a model to misclassify malware as benign. This is an example of:
+
+A. Evasion attacks exploiting model decision boundaries
+B. Poisoning attacks targeting training data integrity
+C. Model extraction through repeated queries
+D. Data augmentation to expand training sets
+14.
+
+A model trained on outdated threat data begins missing new attack patterns. What phenomenon is occurring?
+
+A. Catastrophic forgetting due to continual learning
+B. Concept drift caused by evolving threat landscapes
+C. Gradient explosion from unstable optimization
+D. Mode collapse in generative architectures
+15.
+
+A company wants to reduce manual feature engineering and rely more on automated representation learning. Which model type is most appropriate?
+
+A. Deep learning architectures capable of feature abstraction
+B. Naive Bayes models with conditional independence
+C. Decision trees with explicit feature splits
+D. Linear regression with manually selected predictors
+16.
+
+A threat actor repeatedly queries a model to approximate its internal decision boundaries. This attack is known as:
+
+A. Model extraction through query‑based approximation
+B. Data poisoning via malicious sample injection
+C. Prompt injection targeting inference logic
+D. Feature selection manipulation
+17.
+
+A SOC uses AI to automatically triage alerts and reduce analyst workload. Which benefit aligns most closely with AI fundamentals?
+
+A. Guaranteed elimination of false positives
+B. Automation that reduces manual triage effort
+C. Removal of human oversight from decision‑making
+D. Perfect accuracy across all alert categories
+
+18.
+
+A company discovers that its cloud storage bucket containing AI training data was accidentally left publicly readable. What is the most critical security risk?
+
+A. Increased GPU utilization from unauthorized training jobs
+B. Exposure of sensitive training data leading to data leakage
+C. Reduced model accuracy due to unoptimized storage tiers
+D. Slower inference caused by network latency
+19.
+
+A model is vulnerable to prompt‑based manipulation that causes it to output restricted information. Which mitigation is most effective?
+
+A. Increasing model size to improve contextual reasoning
+B. Implementing strict input sanitization and guardrail filtering
+C. Reducing inference batch size to limit exposure
+D. Disabling logging to prevent prompt capture
+20.
+
+During deployment, an attacker modifies model weights to alter predictions. Which control prevents this?
+
+A. Cryptographic model signing with integrity verification
+B. Gradient clipping during training
+C. Tokenization of input sequences
+D. Batch normalization to stabilize activations
+21.
+
+A company wants to prevent unauthorized users from downloading its proprietary model. Which control is most appropriate?
+
+A. Increasing API throughput limits
+B. Encrypting the model at rest with access‑controlled decryption
+C. Expanding the training dataset to reduce overfitting
+D. Using model pruning to reduce file size
+22.
+
+A red team bypasses an AI‑powered intrusion detection system by generating adversarial network packets. Which defense is most effective?
+
+A. Disabling TLS to inspect raw packet contents
+B. Adversarial training using perturbed examples
+C. Reducing model depth to simplify decision boundaries
+D. Increasing inference batch size to smooth predictions
+23.
+
+A model is deployed in a multi‑tenant cloud environment. The company wants to ensure workloads cannot access each other’s memory. Which technique applies?
+
+A. Shared GPU scheduling with cooperative multitasking
+B. Hardware‑based isolation such as trusted execution environments
+C. Unrestricted container‑to‑container networking
+D. Public inference endpoints for all tenants
+24.
+
+A threat actor injects malicious samples into a data pipeline feeding a training job. Which safeguard helps detect this?
+
+A. Data provenance and lineage tracking
+B. Increasing dataset size to dilute anomalies
+C. Adding more GPUs to accelerate training
+D. Lowering the learning rate to reduce noise
+25.
+
+A company wants to ensure only approved models are deployed to production. Which control is required?
+
+A. A model registry with versioning and approval workflows
+B. Allowing unrestricted fine‑tuning for rapid iteration
+C. Anonymous API access for testing
+D. Disabling inference logging
+26.
+
+A model is vulnerable to membership inference attacks. Which mitigation is strongest?
+
+A. Applying differential privacy during training
+B. Increasing batch size to smooth gradients
+C. Training for more epochs to reduce variance
+D. Removing dropout layers to stabilize outputs
+27.
+
+A threat actor uses model outputs to infer sensitive training data. This attack is known as:
+
+A. Model inversion
+B. Data poisoning
+C. Prompt injection
+D. Feature pruning
+28.
+
+A company wants to secure its AI supply chain. Which control is essential?
+
+A. Vendor attestation and verification of model sources
+B. Overclocking GPUs to reduce training time
+C. Allowing unrestricted model sharing
+D. Disabling audit logs to reduce storage
+29.
+
+A model deployed on edge devices must resist tampering. Which control is best?
+
+A. Secure boot with cryptographic verification
+B. Batch normalization to stabilize inference
+C. Tokenization of user inputs
+D. Model pruning to reduce memory footprint
+30.
+
+A threat actor uses automated API calls to brute‑force model outputs. Which defense helps most?
+
+A. Strong API authentication combined with rate limiting
+B. Increasing model size to reduce predictability
+C. Adding more training data
+D. Disabling monitoring to reduce overhead
+31.
+
+A company wants to prevent unauthorized fine‑tuning of its models. Which control is required?
+
+A. Role‑based access control on training and tuning operations
+B. Increasing inference cluster size
+C. Training for additional epochs
+D. Using GPU virtualization for efficiency
+32.
+
+A model is vulnerable to shadow inference, where attackers infer sensitive attributes from outputs. Which mitigation is most effective?
+
+A. Output‑level access controls and response minimization
+B. Increasing dataset size
+C. Adding more layers to the model
+D. Disabling encryption to simplify monitoring
+33.
+
+A threat actor tampers with a model during CI/CD. Which safeguard applies?
+
+A. Code signing and integrity validation in ML pipelines
+B. Increasing learning rate to reduce training time
+C. Disabling version control to simplify workflows
+D. Using public model registries for convenience
+34.
+
+A company wants to ensure training data integrity. Which control is best?
+
+A. Hash‑based verification of datasets
+B. Expanding dataset size
+C. Adding more GPUs
+D. Reducing batch size
+35.
+
+A model is vulnerable to jailbreak prompts that bypass safety constraints. Which mitigation is strongest?
+
+A. Guardrail models combined with prompt filtering
+B. Increasing inference batch size
+C. Disabling logging
+D. Adding more training epochs
+36.
+
+A threat actor attempts to extract model weights from GPU memory. Which defense applies?
+
+A. Memory encryption to protect model parameters
+B. Data augmentation
+C. Dropout
+D. Tokenization
+37.
+
+A company wants to secure AI workloads running in Kubernetes. Which control is essential?
+
+A. Pod‑level network policies restricting east‑west traffic
+B. Public container registries for rapid deployment
+C. Unrestricted RBAC permissions
+D. Shared namespaces for all workloads
+38.
+
+A model is vulnerable to gradient leakage in a federated learning setup. Which mitigation helps most?
+
+A. Secure aggregation to protect gradients
+B. Increasing learning rate
+C. Training for more epochs
+D. Disabling encryption
+39.
+
+A threat actor manipulates inference‑time inputs to cause misclassification. Which defense applies?
+
+A. Input validation and anomaly detection
+B. Increasing model size
+C. Adding more GPUs
+D. Disabling monitoring
+40.
+
+A company wants to prevent unauthorized model cloning. Which control is best?
+
+A. Model watermarking to detect illicit copies
+B. Increasing dataset size
+C. Adding more layers
+D. Disabling logging
+41.
+
+A model is deployed with default credentials. Which risk is highest?
+
+A. Unauthorized access to model endpoints
+B. Gradient explosion
+C. Mode collapse
+D. Overfitting
+42.
+
+A threat actor injects poisoned samples into a fraud‑detection dataset. Which detection method helps?
+
+A. Outlier analysis on training data distributions
+B. Increasing batch size
+C. Adding more GPUs
+D. Lowering learning rate
+43.
+
+A company wants to secure AI logs. Which control is essential?
+
+A. Immutable logging with tamper‑evident storage
+B. Disabling logs to reduce exposure
+C. Public log access for transparency
+D. Frequent log deletion
+44.
+
+A model is vulnerable to adversarial audio attacks. Which defense applies?
+
+A. Robust feature extraction and preprocessing
+B. Increasing dataset size
+C. Adding more layers
+D. Disabling monitoring
+45.
+
+A threat actor attempts to modify hyperparameters during training. Which safeguard applies?
+
+A. RBAC and pipeline integrity controls
+B. Increasing learning rate
+C. Training for more epochs
+D. Disabling versioning
+46.
+
+A company wants to ensure inference traffic cannot be intercepted or modified. Which control is best?
+
+A. TLS encryption for inference communications
+B. Increasing model size
+C. Adding more GPUs
+D. Disabling encryption
+47.
+
+A threat actor uses repeated queries to replicate a proprietary model. Which mitigation helps?
+
+A. Output obfuscation combined with rate limiting
+B. Increasing dataset size
+C. Adding more layers
+D. Disabling monitoring
+48.
+
+A company wants to secure its AI APIs. Which control is essential?
+
+A. Strong authentication and authorization
+B. Public endpoints for accessibility
+C. Disabling logging
+D. Anonymous access
+49.
+
+A model is vulnerable to training‑data reconstruction attacks. Which mitigation is strongest?
+
+A. Differential privacy applied during training
+B. Increasing dataset size
+C. Adding more layers
+D. Disabling encryption
+50.
+
+A threat actor tampers with model containers. Which defense applies?
+
+A. Signed container images with integrity checks
+B. Increasing inference cluster size
+C. Adding more GPUs
+D. Disabling monitoring
+51.
+
+A company wants to prevent unauthorized model deployment. Which control is required?
+
+A. CI/CD approval gates and deployment restrictions
+B. Public registries for rapid access
+C. Anonymous access
+D. Disabling versioning
+52.
+
+A model is vulnerable to prompt‑based data leakage. Which mitigation helps?
+
+A. Output filtering and redaction of sensitive content
+B. Increasing dataset size
+C. Adding more layers
+D. Disabling logging
+53.
+
+A threat actor injects malicious code into a training script. Which safeguard applies?
+
+A. Code integrity scanning and signed artifacts
+B. Increasing learning rate
+C. Training for more epochs
+D. Disabling versioning
+54.
+
+A company wants to secure AI model backups. Which control is essential?
+
+A. Encrypting backups with access‑controlled keys
+B. Public backup storage
+C. Disabling backups
+D. Anonymous access
+55.
+
+A model is vulnerable to inference‑time poisoning. Which defense applies?
+
+A. Input anomaly detection and validation
+B. Increasing dataset size
+C. Adding more layers
+D. Disabling monitoring
+56.
+
+A threat actor uses GPU side‑channel attacks to extract model information. Which mitigation helps?
+
+A. Hardware isolation and secure GPU partitioning
+B. Increasing batch size
+C. Training for more epochs
+D. Disabling encryption
+57.
+
+A company wants to secure federated learning across multiple participants. Which control is essential?
+
+A. Secure aggregation to protect participant updates
+B. Public model sharing
+C. Disabling encryption
+D. Anonymous participation
+
+58.
+
+A SOC deploys an AI system that correlates alerts from multiple security tools to reduce analyst workload. What is the primary benefit of this approach?
+
+A. Automated triage that accelerates incident handling
+B. Guaranteed elimination of false positives
+C. Deterministic classification of all alert categories
+D. Removal of human analysts from the review process
+59.
+
+An AI‑powered EDR flags a process that deviates from its historical behavior profile. Which AI technique is most likely responsible?
+
+A. Anomaly detection based on behavioral baselines
+B. Logistic regression using fixed thresholds
+C. Reinforcement learning with reward shaping
+D. Linear regression modeling process frequency
+60.
+
+A company wants to automate phishing‑email triage using AI. Which capability is most relevant?
+
+A. NLP‑based classification of message content
+B. Reinforcement learning for reward‑based filtering
+C. Clustering based solely on sender IP ranges
+D. Regression modeling of email length
+61.
+
+A SOC uses AI to detect lateral movement within the network. Which data source provides the most value?
+
+A. East‑west network telemetry and internal flow patterns
+B. Public threat‑intelligence feeds
+C. GPU utilization metrics from inference servers
+D. Email header metadata
+62.
+
+A threat actor uses AI to generate novel attack paths that bypass traditional defenses. Which defensive AI capability helps most?
+
+A. Predictive attack‑path modeling using graph analytics
+B. Tokenization of user inputs
+C. Batch normalization to stabilize model outputs
+D. Model pruning to reduce inference latency
+63.
+
+A company wants to automate incident response actions such as isolating hosts and blocking IPs. Which AI capability is essential?
+
+A. Orchestration and automated playbook execution
+B. Increasing dataset size for better generalization
+C. Adding more GPUs to reduce inference time
+D. Disabling logs to reduce noise
+64.
+
+A SOC uses AI to detect insider threats. Which signal is most relevant?
+
+A. Behavioral anomalies deviating from user baselines
+B. GPU temperature fluctuations
+C. TLS version changes
+D. Batch size variations in model training
+65.
+
+A company wants to reduce alert fatigue caused by thousands of low‑value alerts. Which AI technique helps most?
+
+A. Alert correlation to group related events
+B. Expanding the training dataset
+C. Adding deeper neural‑network layers
+D. Disabling monitoring for low‑severity alerts
+66.
+
+A threat actor uses AI to mutate malware signatures to evade detection. Which defensive capability is most effective?
+
+A. Behavior‑based detection focusing on runtime actions
+B. Static signature matching
+C. Port‑based filtering
+D. Header‑only packet inspection
+67.
+
+A SOC uses AI to prioritize alerts. Which factor should the model weigh most heavily?
+
+A. Business impact and asset criticality
+B. GPU load on inference servers
+C. Batch size used during model training
+D. TLS version used by endpoints
+68.
+
+A company wants to detect zero‑day attacks using AI. Which technique is most effective?
+
+A. Anomaly detection that identifies deviations from normal behavior
+B. Signature matching against known threats
+C. Static rule‑based filtering
+D. Port‑based allow/deny lists
+69.
+
+A SOC uses AI to detect credential‑stuffing attacks. Which signal is most relevant?
+
+A. Login velocity anomalies across multiple accounts
+B. GPU utilization spikes
+C. TLS version mismatches
+D. Batch size fluctuations
+70.
+
+A company wants to automate malware sandboxing using AI. Which capability is most relevant?
+
+A. Behavior classification based on execution traces
+B. Tokenization of file names
+C. Batch normalization of feature vectors
+D. Model pruning to reduce inference time
+71.
+
+A SOC uses AI to detect DNS tunneling. Which feature is most relevant?
+
+A. Domain entropy and unusual query patterns
+B. GPU temperature
+C. TLS handshake timing
+D. Batch size used during training
+72.
+
+A company wants to detect data‑exfiltration attempts using AI. Which technique is most effective?
+
+A. Anomaly detection on outbound traffic patterns
+B. Static rules based on port numbers
+C. Port filtering on known services
+D. Batch normalization of network features
+73.
+
+A SOC uses AI to detect phishing domains. Which feature is most relevant?
+
+A. Domain age combined with lexical similarity to known brands
+B. GPU utilization
+C. TLS version
+D. Batch size
+74.
+
+A company wants to automate threat‑hunting workflows using AI. Which capability is essential?
+
+A. Pattern discovery across large datasets
+B. Batch normalization
+C. Tokenization
+D. Model pruning
+75.
+
+A SOC uses AI to detect brute‑force attacks. Which signal is most relevant?
+
+A. Patterns of repeated failed login attempts
+B. GPU load
+C. TLS version
+D. Batch size
+76.
+
+A company wants to detect anomalous API usage using AI. Which technique is most effective?
+
+A. Sequence modeling to analyze call patterns
+B. Static rules based on endpoint names
+C. Port filtering
+D. Batch normalization
+77.
+
+A SOC uses AI to detect ransomware behavior. Which signal is most relevant?
+
+A. Rapid file‑encryption patterns across directories
+B. GPU load
+C. TLS version
+D. Batch size
+78.
+
+A company wants to automate vulnerability prioritization. Which AI capability helps most?
+
+A. Risk scoring based on exploitability and asset value
+B. Batch normalization
+C. Tokenization
+D. Model pruning
+79.
+
+A SOC uses AI to detect botnet command‑and‑control traffic. Which feature is most relevant?
+
+A. Beaconing patterns with consistent intervals
+B. GPU load
+C. TLS version
+D. Batch size
+80.
+
+A company wants to detect anomalous user behavior. Which AI technique is most effective?
+
+A. UEBA (User and Entity Behavior Analytics)
+B. Static rules
+C. Port filtering
+D. Batch normalization
+81.
+
+A SOC uses AI to detect supply‑chain attacks. Which signal is most relevant?
+
+A. Unexpected or unauthorized changes in code repositories
+B. GPU load
+C. TLS version
+D. Batch size
+
+82.
+
+A company is training an AI model using customer data from EU residents. Which governance requirement is most relevant to ensuring lawful processing?
+
+A. Data minimization to limit collection to what is strictly necessary
+B. GPU isolation to prevent cross‑tenant interference
+C. Batch‑size tuning to optimize training efficiency
+D. Model pruning to reduce computational overhead
+83.
+
+A company wants to ensure its AI systems follow responsible‑use principles throughout the lifecycle. Which framework is most relevant?
+
+A. NIST AI Risk Management Framework (AI RMF)
+B. PCI DSS for payment‑card data handling
+C. ISO 27017 for cloud security controls
+D. SOC 2 for service‑provider auditing
+84.
+
+A model is used to make decisions that significantly affect customers, such as loan approvals. Which governance requirement applies?
+
+A. Explainability to ensure decisions can be interpreted and justified
+B. Monitoring GPU load to detect resource contention
+C. Adjusting batch size to stabilize training
+D. Enforcing TLS version uniformity
+85.
+
+A company wants to evaluate the potential harms, vulnerabilities, and operational risks associated with deploying a new AI system. Which activity is essential?
+
+A. Conducting a formal AI risk assessment
+B. Overclocking GPUs to reduce training time
+C. Applying batch normalization to model layers
+D. Tokenizing inputs to reduce vocabulary size
+86.
+
+A model processes biometric identifiers such as facial images. Which regulatory requirement is most relevant?
+
+A. GDPR protections for special‑category biometric data
+B. PCI DSS requirements for cardholder information
+C. SOX controls for financial reporting
+D. FedRAMP controls for federal cloud systems
+87.
+
+A company wants to ensure its AI models do not produce discriminatory outcomes. Which governance control is most relevant?
+
+A. Bias testing and fairness evaluation across demographic groups
+B. Monitoring GPU utilization for performance anomalies
+C. Enforcing uniform TLS versions across endpoints
+D. Adjusting batch size to reduce training variance
