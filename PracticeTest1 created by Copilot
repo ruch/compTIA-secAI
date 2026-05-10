@@ -697,3 +697,108 @@ A. Bias testing and fairness evaluation across demographic groups
 B. Monitoring GPU utilization for performance anomalies
 C. Enforcing uniform TLS versions across endpoints
 D. Adjusting batch size to reduce training variance
+
+88. (Securing AI Systems)
+
+A company discovers that its ML inference API returns highly detailed error messages when malformed inputs are submitted. What is the primary security concern?
+
+A. Attackers may use error details to map internal model architecture
+B. The model may experience slower inference due to verbose logging
+C. The API may require additional GPUs to handle malformed requests
+D. The model may overfit due to inconsistent input formatting
+89. (AI‑Assisted Security)
+
+A SOC deploys an AI system that identifies anomalous SSH login patterns across multiple regions. Which signal most strongly indicates malicious activity?
+
+A. Logins occurring from geographically impossible locations
+B. Logins using deprecated cipher suites
+C. Logins with unusually long session durations
+D. Logins occurring during scheduled maintenance windows
+90. (Basic AI Concepts)
+
+A model trained on highly imbalanced data consistently misclassifies minority‑class samples. Which technique best addresses this?
+
+A. Oversampling or synthetic data generation for minority classes
+B. Increasing the number of hidden layers
+C. Reducing the learning rate
+D. Using larger batch sizes during training
+91. (Securing AI Systems)
+
+A threat actor attempts to poison a federated learning system by submitting malicious gradient updates. Which defense is most effective?
+
+A. Robust aggregation methods that down‑weight anomalous updates
+B. Increasing the number of participating clients
+C. Using larger batch sizes during local training
+D. Reducing the number of communication rounds
+92. (AI Governance, Risk & Compliance)
+
+A company deploys an AI model that makes employment‑screening decisions. Which governance requirement is most critical?
+
+A. Conducting fairness and disparate‑impact assessments
+B. Monitoring GPU utilization during inference
+C. Reducing model size to improve latency
+D. Using TLS 1.3 for API communication
+93. (Securing AI Systems)
+
+A model is deployed in a containerized environment. Which misconfiguration poses the greatest security risk?
+
+A. Containers running with root privileges
+B. Containers using a lightweight base image
+C. Containers sharing a read‑only filesystem
+D. Containers pinned to a single GPU
+94. (AI‑Assisted Security)
+
+A SOC uses AI to detect anomalous PowerShell activity. Which behavior is most indicative of compromise?
+
+A. PowerShell spawning from unexpected parent processes
+B. PowerShell executing during business hours
+C. PowerShell loading signed modules
+D. PowerShell running with constrained language mode
+95. (Securing AI Systems)
+
+A company wants to prevent attackers from reverse‑engineering its model architecture through API queries. Which mitigation is most effective?
+
+A. Limiting output detail and applying response randomization
+B. Increasing model depth to make extraction harder
+C. Using larger training datasets
+D. Reducing inference batch size
+96. (AI Governance, Risk & Compliance)
+
+A company must document how an AI system makes decisions for regulatory review. Which requirement does this support?
+
+A. Transparency and auditability
+B. GPU resource optimization
+C. Model pruning for efficiency
+D. Batch‑size normalization
+97. (Basic AI Concepts)
+
+A model’s performance drops significantly when deployed in a new environment with different data distributions. What is the most likely cause?
+
+A. Domain shift between training and production data
+B. Insufficient GPU memory
+C. Excessive model regularization
+D. Overly large batch sizes
+98. (Securing AI Systems)
+
+A threat actor attempts to overwhelm an AI inference endpoint with high‑volume requests. Which defense is most effective?
+
+A. API throttling combined with autoscaling limits
+B. Increasing model size to slow attackers
+C. Adding more training data
+D. Reducing inference precision
+99. (AI‑Assisted Security)
+
+A SOC uses AI to detect unusual cloud‑resource provisioning. Which behavior most strongly indicates malicious automation?
+
+A. Rapid creation of high‑privilege service accounts
+B. Provisioning of compute instances during peak hours
+C. Use of standard VM templates
+D. Deployment of resources in approved regions
+100. (AI Governance, Risk & Compliance)
+
+A company wants to ensure its AI system complies with global privacy regulations. Which practice is most essential?
+
+A. Implementing data‑retention limits aligned with legal requirements
+B. Increasing GPU isolation
+C. Using larger batch sizes
+D. Reducing model inference latency
