@@ -1,70 +1,57 @@
-1.
-
-A security researcher finds that a computer‑vision model misclassifies images when attackers apply subtle pixel‑level noise. Which concept best explains this weakness?
-
+1. A security researcher finds that a computer‑vision model misclassifies images when attackers apply subtle pixel‑level noise. Which concept best explains this weakness?
 A. Overgeneralization caused by excessive regularization
 B. Adversarial perturbations exploiting model sensitivity
 C. Gradient vanishing due to shallow convolutional layers
 D. Transfer learning errors from mismatched source domains
-2.
 
-A team wants to build a malware classifier using labeled benign and malicious samples. Which learning paradigm fits this requirement?
-
+2. A team wants to build a malware classifier using labeled benign and malicious samples. Which learning paradigm fits this requirement?
 A. Reinforcement learning driven by reward signals
 B. Supervised learning using annotated datasets
 C. Self‑supervised learning with masked token prediction
 D. Unsupervised clustering based on feature similarity
-3.
 
-A threat actor uses a generative model to rewrite phishing emails so they evade content‑filter signatures. This represents:
-
+3. A threat actor uses a generative model to rewrite phishing emails so they evade content‑filter signatures. This represents:
 A. Model inversion to reconstruct sensitive training data
 B. Automated social engineering using generative AI
 C. Prompt‑based manipulation of inference pipelines
 D. Data poisoning during model retraining
-4.
 
-A SOC deploys an NLP model to summarize threat‑intel reports. Which limitation must analysts consider?
+4. A SOC deploys an NLP model to summarize threat‑intel reports. Which limitation must analysts consider?
 
 A. NLP models cannot process multi‑sentence context windows
 B. NLP models may hallucinate details not present in the source
 C. NLP models require only numerical tabular data to function
 D. NLP models cannot be fine‑tuned on domain‑specific corpora
-5.
 
-A deep learning model performs extremely well on training data but poorly on new samples. Which adjustment is most effective?
+5. A deep learning model performs extremely well on training data but poorly on new samples. Which adjustment is most effective?
 
 A. Increasing inference batch size to stabilize predictions
 B. Adding dropout or other regularization to reduce overfitting
 C. Reducing the number of hidden layers to simplify gradients
 D. Disabling weight decay to preserve learned representations
-6.
 
-A red‑team operator uses an LLM to generate polymorphic malware variants that evade signature‑based detection. This is an example of:
+6. A red‑team operator uses an LLM to generate polymorphic malware variants that evade signature‑based detection. This is an example of:
 
 A. Model poisoning through malicious gradient updates
 B. AI‑enabled evasion using generative transformation
 C. Shadow inference to bypass access controls
 D. Feature pruning to remove malicious indicators
-7.
 
-A model groups network flows into behavioral clusters without using labels. Which learning approach is being used?
+7. A model groups network flows into behavioral clusters without using labels. Which learning approach is being used?
 
 A. Semi‑supervised learning with partial annotations
 B. Unsupervised learning for pattern discovery
 C. Reinforcement learning with environmental feedback
 D. Supervised learning with categorical targets
-8.
 
-A security team wants a model that adapts to attacker behavior in real time by optimizing actions based on outcomes. Which technique is most appropriate?
+8. A security team wants a model that adapts to attacker behavior in real time by optimizing actions based on outcomes. Which technique is most appropriate?
 
 A. Reinforcement learning with reward‑driven policy updates
 B. Logistic regression with static decision boundaries
 C. Batch‑only training using historical threat data
 D. Rule‑based inference with deterministic outputs
-9.
 
-A threat actor injects manipulated samples into a training dataset to bias the model’s predictions. This attack is known as:
+9. A threat actor injects manipulated samples into a training dataset to bias the model’s predictions. This attack is known as:
 
 A. Feature extraction interference
 B. Data poisoning targeting model integrity
