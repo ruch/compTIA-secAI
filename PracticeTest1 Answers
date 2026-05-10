@@ -1,114 +1,307 @@
-SECTION 1 — Basic AI Concepts (1–17)
+⭐ SECTION 1 — Explanations (Questions 1–17)
 
 1 – B. Adversarial perturbations exploiting model sensitivity
-2 – B. Supervised learning using annotated datasets
-3 – B. Automated social engineering using generative AI
-4 – B. NLP models may hallucinate details not present in the source
-5 – B. Adding dropout or other regularization to reduce overfitting
-6 – B. AI‑enabled evasion using generative transformation
-7 – B. Unsupervised learning for pattern discovery
-8 – A. Reinforcement learning with reward‑driven policy updates
-9 – B. Data poisoning targeting model integrity
-10 – B. LLMs may misinterpret ambiguous or nuanced phrasing
-11 – B. A deep neural network with multi‑layer architecture
-12 – B. Autoencoders trained on metadata‑level features
-13 – A. Evasion attacks exploiting model decision boundaries
-14 – B. Concept drift caused by evolving threat landscapes
-15 – A. Deep learning architectures capable of feature abstraction
-16 – A. Model extraction through query‑based approximation
-17 – B. Automation that reduces manual triage effort
+Tiny crafted noise can fool models because they rely on fragile decision boundaries.
 
-SECTION 2 — Securing AI Systems (18–57)
+2 – B. Supervised learning using annotated datasets
+Labeled benign/malicious samples = classic supervised classification.
+
+3 – B. Automated social engineering using generative AI
+The attacker uses a generative model to rewrite phishing content.
+
+4 – B. NLP models may hallucinate details not present in the source
+LLMs can invent facts when summarizing.
+
+5 – B. Adding dropout or other regularization to reduce overfitting
+Regularization improves generalization on unseen data.
+
+6 – B. AI‑enabled evasion using generative transformation
+The model generates malware variants to evade detection.
+
+7 – B. Unsupervised learning for pattern discovery
+Clustering without labels = unsupervised learning.
+
+8 – A. Reinforcement learning with reward‑driven policy updates
+RL adapts behavior based on outcomes and rewards.
+
+9 – B. Data poisoning targeting model integrity
+Attacker corrupts training data to bias predictions.
+
+10 – B. LLMs may misinterpret ambiguous or nuanced phrasing
+LLMs struggle with subtle or context‑dependent meaning.
+
+11 – B. A deep neural network with multi‑layer architecture
+Multiple nonlinear layers = deep learning.
+
+12 – B. Autoencoders trained on metadata‑level features
+Autoencoders detect anomalies by reconstructing normal patterns.
+
+13 – A. Evasion attacks exploiting model decision boundaries
+Inputs are crafted to be misclassified at inference time.
+
+14 – B. Concept drift caused by evolving threat landscapes
+Threat patterns change, making old training data outdated.
+
+15 – A. Deep learning architectures capable of feature abstraction
+Deep models learn features automatically, reducing manual engineering.
+
+16 – A. Model extraction through query‑based approximation
+Repeated queries allow attackers to approximate the model.
+
+17 – B. Automation that reduces manual triage effort
+AI speeds up alert handling but doesn’t eliminate false positives.
+
+⭐ SECTION 2 — Explanations (Questions 18–57)
 
 18 – B. Exposure of sensitive training data leading to data leakage
-19 – B. Implementing strict input sanitization and guardrail filtering
-20 – A. Cryptographic model signing with integrity verification
-21 – B. Encrypting the model at rest with access‑controlled decryption
-22 – B. Adversarial training using perturbed examples
-23 – B. Hardware‑based isolation such as trusted execution environments
-24 – A. Data provenance and lineage tracking
-25 – A. A model registry with versioning and approval workflows
-26 – A. Applying differential privacy during training
-27 – A. Model inversion
-28 – A. Vendor attestation and verification of model sources
-29 – A. Secure boot with cryptographic verification
-30 – A. Strong API authentication combined with rate limiting
-31 – A. Role‑based access control on training and tuning operations
-32 – A. Output‑level access controls and response minimization
-33 – A. Code signing and integrity validation in ML pipelines
-34 – A. Hash‑based verification of datasets
-35 – A. Guardrail models combined with prompt filtering
-36 – A. Memory encryption to protect model parameters
-37 – A. Pod‑level network policies restricting east‑west traffic
-38 – A. Secure aggregation to protect gradients
-39 – A. Input validation and anomaly detection
-40 – A. Model watermarking to detect illicit copies
-41 – A. Unauthorized access to model endpoints
-42 – A. Outlier analysis on training data distributions
-43 – A. Immutable logging with tamper‑evident storage
-44 – A. Robust feature extraction and preprocessing
-45 – A. RBAC and pipeline integrity controls
-46 – A. TLS encryption for inference communications
-47 – A. Output obfuscation combined with rate limiting
-48 – A. Strong authentication and authorization
-49 – A. Differential privacy applied during training
-50 – A. Signed container images with integrity checks
-51 – A. CI/CD approval gates and deployment restrictions
-52 – A. Output filtering and redaction of sensitive content
-53 – A. Code integrity scanning and signed artifacts
-54 – A. Encrypting backups with access‑controlled keys
-55 – A. Input anomaly detection and validation
-56 – A. Hardware isolation and secure GPU partitioning
-57 – A. Secure aggregation to protect participant updates
+Public buckets leak private or proprietary data.
 
-SECTION 3 — AI‑Assisted Security (58–81)
+19 – B. Implementing strict input sanitization and guardrail filtering
+Prompt filtering reduces harmful or manipulative inputs.
+
+20 – A. Cryptographic model signing with integrity verification
+Signing ensures weights aren’t tampered with.
+
+21 – B. Encrypting the model at rest with access‑controlled decryption
+Prevents unauthorized model downloads.
+
+22 – B. Adversarial training using perturbed examples
+Training on adversarial samples improves robustness.
+
+23 – B. Hardware‑based isolation such as trusted execution environments
+Prevents cross‑tenant memory access.
+
+24 – A. Data provenance and lineage tracking
+Tracks where data came from to detect tampering.
+
+25 – A. A model registry with versioning and approval workflows
+Ensures only approved models reach production.
+
+26 – A. Applying differential privacy during training
+DP prevents attackers from inferring training membership.
+
+27 – A. Model inversion
+Attackers reconstruct training data from outputs.
+
+28 – A. Vendor attestation and verification of model sources
+Prevents supply‑chain tampering.
+
+29 – A. Secure boot with cryptographic verification
+Ensures edge devices load only trusted models.
+
+30 – A. Strong API authentication combined with rate limiting
+Stops brute‑force or automated probing.
+
+31 – A. Role‑based access control on training and tuning operations
+Prevents unauthorized fine‑tuning.
+
+32 – A. Output‑level access controls and response minimization
+Limits sensitive information leakage.
+
+33 – A. Code signing and integrity validation in ML pipelines
+Protects CI/CD from tampering.
+
+34 – A. Hash‑based verification of datasets
+Detects unauthorized data changes.
+
+35 – A. Guardrail models combined with prompt filtering
+Reduces jailbreak prompt success.
+
+36 – A. Memory encryption to protect model parameters
+Prevents GPU memory scraping.
+
+37 – A. Pod‑level network policies restricting east‑west traffic
+Limits lateral movement in Kubernetes.
+
+38 – A. Secure aggregation to protect gradients
+Prevents gradient leakage in federated learning.
+
+39 – A. Input validation and anomaly detection
+Stops malicious inference‑time inputs.
+
+40 – A. Model watermarking to detect illicit copies
+Identifies stolen or cloned models.
+
+41 – A. Unauthorized access to model endpoints
+Default credentials allow attackers in.
+
+42 – A. Outlier analysis on training data distributions
+Detects poisoned samples.
+
+43 – A. Immutable logging with tamper‑evident storage
+Ensures logs can’t be altered.
+
+44 – A. Robust feature extraction and preprocessing
+Improves resilience to adversarial audio.
+
+45 – A. RBAC and pipeline integrity controls
+Prevents hyperparameter tampering.
+
+46 – A. TLS encryption for inference communications
+Protects data in transit.
+
+47 – A. Output obfuscation combined with rate limiting
+Slows model extraction attacks.
+
+48 – A. Strong authentication and authorization
+Secures AI APIs.
+
+49 – A. Differential privacy applied during training
+Prevents reconstruction of training data.
+
+50 – A. Signed container images with integrity checks
+Stops container tampering.
+
+51 – A. CI/CD approval gates and deployment restrictions
+Prevents unauthorized model deployment.
+
+52 – A. Output filtering and redaction of sensitive content
+Reduces prompt‑based data leakage.
+
+53 – A. Code integrity scanning and signed artifacts
+Prevents malicious code injection.
+
+54 – A. Encrypting backups with access‑controlled keys
+Keeps model backups secure.
+
+55 – A. Input anomaly detection and validation
+Stops inference‑time poisoning.
+
+56 – A. Hardware isolation and secure GPU partitioning
+Mitigates GPU side‑channel attacks.
+
+57 – A. Secure aggregation to protect participant updates
+Prevents tampering in federated learning.
+
+⭐ SECTION 3 — Explanations (Questions 58–81)
 
 58 – A. Automated triage that accelerates incident handling
-59 – A. Anomaly detection based on behavioral baselines
-60 – A. NLP‑based classification of message content
-61 – A. East‑west network telemetry and internal flow patterns
-62 – A. Predictive attack‑path modeling using graph analytics
-63 – A. Orchestration and automated playbook execution
-64 – A. Behavioral anomalies deviating from user baselines
-65 – A. Alert correlation to group related events
-66 – A. Behavior‑based detection focusing on runtime actions
-67 – A. Business impact and asset criticality
-68 – A. Anomaly detection that identifies deviations from normal behavior
-69 – A. Login velocity anomalies across multiple accounts
-70 – A. Behavior classification based on execution traces
-71 – A. Domain entropy and unusual query patterns
-72 – A. Anomaly detection on outbound traffic patterns
-73 – A. Domain age combined with lexical similarity to known brands
-74 – A. Pattern discovery across large datasets
-75 – A. Patterns of repeated failed login attempts
-76 – A. Sequence modeling to analyze call patterns
-77 – A. Rapid file‑encryption patterns across directories
-78 – A. Risk scoring based on exploitability and asset value
-79 – A. Beaconing patterns with consistent intervals
-80 – A. UEBA (User and Entity Behavior Analytics)
-81 – A. Unexpected or unauthorized changes in code repositories
+AI reduces analyst workload by grouping and prioritizing alerts.
 
-SECTION 4 — Governance, Risk & Compliance (82–87)
+59 – A. Anomaly detection based on behavioral baselines
+Detects deviations from normal process behavior.
+
+60 – A. NLP‑based classification of message content
+NLP models analyze email text for phishing indicators.
+
+61 – A. East‑west network telemetry and internal flow patterns
+Lateral movement is visible in internal traffic.
+
+62 – A. Predictive attack‑path modeling using graph analytics
+AI can forecast attacker movement across assets.
+
+63 – A. Orchestration and automated playbook execution
+AI triggers automated response actions.
+
+64 – A. Behavioral anomalies deviating from user baselines
+Insider threats show unusual user behavior.
+
+65 – A. Alert correlation to group related events
+Reduces alert fatigue by merging duplicates.
+
+66 – A. Behavior‑based detection focusing on runtime actions
+Polymorphic malware evades signatures but not behavior analysis.
+
+67 – A. Business impact and asset criticality
+Prioritization must consider risk to critical systems.
+
+68 – A. Anomaly detection that identifies deviations from normal behavior
+Zero‑days lack signatures, so anomalies reveal them.
+
+69 – A. Login velocity anomalies across multiple accounts
+Impossible travel patterns indicate credential stuffing.
+
+70 – A. Behavior classification based on execution traces
+Sandboxing relies on runtime behavior.
+
+71 – A. Domain entropy and unusual query patterns
+DNS tunneling uses abnormal domain structures.
+
+72 – A. Anomaly detection on outbound traffic patterns
+Exfiltration changes normal outbound behavior.
+
+73 – A. Domain age + lexical similarity to known brands
+Phishing domains mimic legitimate ones.
+
+74 – A. Pattern discovery across large datasets
+Threat hunting relies on uncovering hidden patterns.
+
+75 – A. Patterns of repeated failed login attempts
+Classic brute‑force indicator.
+
+76 – A. Sequence modeling to analyze call patterns
+API misuse shows abnormal call sequences.
+
+77 – A. Rapid file‑encryption patterns across directories
+Ransomware encrypts files quickly and broadly.
+
+78 – A. Risk scoring based on exploitability and asset value
+Prioritization requires contextual risk.
+
+79 – A. Beaconing patterns with consistent intervals
+Botnets communicate periodically with C2 servers.
+
+80 – A. UEBA (User and Entity Behavior Analytics)
+UEBA detects abnormal user behavior.
+
+81 – A. Unexpected or unauthorized changes in code repositories
+Supply‑chain attacks often modify source code.
+
+⭐ SECTION 4 — Explanations (Questions 82–100)
 
 82 – A. Data minimization to limit collection to what is strictly necessary
-83 – A. NIST AI Risk Management Framework (AI RMF)
-84 – A. Explainability to ensure decisions can be interpreted and justified
-85 – A. Conducting a formal AI risk assessment
-86 – A. GDPR protections for special‑category biometric data
-87 – A. Bias testing and fairness evaluation across demographic groups
+GDPR requires collecting only essential data.
 
-ADDITIONAL QUESTIONS (88–100)
+83 – A. NIST AI Risk Management Framework (AI RMF)
+AI RMF guides responsible AI lifecycle practices.
+
+84 – A. Explainability to ensure decisions can be interpreted and justified
+High‑impact decisions require transparency.
+
+85 – A. Conducting a formal AI risk assessment
+Identifies harms, vulnerabilities, and operational risks.
+
+86 – A. GDPR protections for special‑category biometric data
+Biometrics require heightened safeguards.
+
+87 – A. Bias testing and fairness evaluation across demographic groups
+Prevents discriminatory model outcomes.
 
 88 – A. Attackers may use error details to map internal model architecture
+Verbose errors leak system internals.
+
 89 – A. Logins occurring from geographically impossible locations
+Impossible travel strongly indicates compromise.
+
 90 – A. Oversampling or synthetic data generation for minority classes
+Balances class distribution to improve accuracy.
+
 91 – A. Robust aggregation methods that down‑weight anomalous updates
+Prevents poisoned gradients from influencing the model.
+
 92 – A. Conducting fairness and disparate‑impact assessments
+Employment decisions require fairness checks.
+
 93 – A. Containers running with root privileges
+Root containers allow full system compromise.
+
 94 – A. PowerShell spawning from unexpected parent processes
+Malware often launches PowerShell covertly.
+
 95 – A. Limiting output detail and applying response randomization
+Reduces model extraction via probing.
+
 96 – A. Transparency and auditability
+Regulators require documented decision processes.
+
 97 – A. Domain shift between training and production data
+Different data distributions degrade performance.
+
 98 – A. API throttling combined with autoscaling limits
+Prevents inference‑endpoint overload attacks.
+
 99 – A. Rapid creation of high‑privilege service accounts
+Strong indicator of malicious automation.
+
 100 – A. Implementing data‑retention limits aligned with legal requirements
+Privacy laws require strict retention controls.
